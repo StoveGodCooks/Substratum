@@ -466,8 +466,9 @@
         }
 
         .scene-svg .hotspot.visited:not(:hover):not(:focus) {
-            fill: rgba(255, 0, 255, 0.12);
-            stroke: rgba(255, 0, 255, 0.55);
+  fill: none !important;
+  stroke: none !important;
+  filter: none !important;
         }
 
     </style>
@@ -1168,4 +1169,5 @@ function initHotspots() {
         });
     </script>
 </body>
+
 </html>
